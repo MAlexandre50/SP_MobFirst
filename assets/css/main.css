@@ -1,5 +1,25 @@
+
 .row{
     padding-left: 10%;
     padding-right: 10%;
 }
 
+.superheader{
+    color: #ffffff;
+    background: #333333;
+    height: 40px;
+    padding-top: 10px;
+
+}
+
+.colorized{
+    color: #ff9900;
+}
+
+.superheader>div{
+    display:inline-flex;
+}
+
+.superheader>div>*{
+    margin-left: 5px;
+}
