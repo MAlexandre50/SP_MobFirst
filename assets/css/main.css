@@ -1,5 +1,65 @@
-.row{
-    padding-left: 10%;
-    padding-right: 10%;
+html {
+	font-size: 62.5%;
+	background-color: #e8ebeb;
+	height: 100%;
+	margin-right: 13.8%;
+	margin-left: 13.8%;
+	
 }
+
+
+
+.row sponsoredproduct {
+	background-color: white;
+	height: 100%;
+	margin-right: 10%;
+	margin-left: 10%;
+	
+}
+
+
+#image1, #image2, #image3, #image4 {
+	
+	border-width: 0.1rem;
+    border-style: solid;
+	border-color: #eee8e3;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	margin-left: 2rem;
+	height: 32rem;
+	width: 25rem;
+}
+
+
+#titre {
+	float: left;
+	margin-left: 1.5rem;
+}
+#chaussure1, #chaussure2, #pantalon, #tee-shirt {
+	width: 100%;
+	position: absolute;
+	top: 20%;
+	left: 0%;
+	
+}
+#prix {
+	position: absolute;
+	top: 90%;
+	left: 0%;
+}
+
+#prix1 {
+	position: absolute;
+	top: 95%;
+	left: 0%;
+}
+#etoiles{
+	position: absolute;
+	top: 90%;
+	left: 35%;
+}
+
 
