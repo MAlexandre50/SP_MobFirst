@@ -94,7 +94,7 @@ left: 0%;
 	font-size: 1.5rem;
 	color: white;
 }
-#paiement1 {
+#paiement1, #paiement2 {
 background-color: white;
 	width: 18rem;
 	height: 12rem;
@@ -168,6 +168,11 @@ color: white;
 }
 #formulaire1{
 	margin-top: 5rem;
+	
+}
+#inscrire1{
+background-color: #333231;
+border-color: #333231;
 }
 #rs{
 	
@@ -223,5 +228,147 @@ width: 80%;
 margin-left: 2%;
 text-align: center;
 line-height:1.5rem;
+
+}
+/*Smartphones*/
+@media screen and (max-width:1439px){
+#produits {
+margin-right: 15%;
+}
+
+#image1, #image2, #image3, #image4 {
+	
+	border-width: 0.1rem;
+    border-style: solid;
+	border-color: #eee8e3;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+	height: 32rem;
+	width: 20rem;
+}
+
+#logo1{
+	background-color: #393939;
+	width: 12rem;
+	height: 12rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 2rem;
+	margin-left: 6%;
+    margin-right: 6%;
+}
+
+
+
+#paiement1 {
+background-color: white;
+	width: 18rem;
+	height: 8rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 5rem;
+    margin-top: -2%;
+	
+}
+
+#paiement2 {
+background-color: white;
+	width: 18rem;
+	height: 8rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 2rem;
+    margin-left: 4rem;
+margin-top: 225%;
+	
+}
+
+#formulaire{
+	width: 50rem;
+	margin-bottom: 2rem;
+	margin-left: -10%;
+}
+
+#inscrire {
+
+display: block;
+width: 20rem;
+}
+
+#reseau {
+
+width: 2rem;
+height: 12rem;
+display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+#reseau2 {
+width: 20rem;
+margin-right: 2rem;
+margin-left: 2rem;
+display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+#toutenbas {
+margin-top: 160%;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.reseausocial {
+	background-color: #558540;
+	overflow: visible;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5rem;
+	width: 150%;
+height: 80%;
+position: absolute;
+left: 0%;
+color: white;
+}
+
+.rs3 {
+margin-left: -20%;
+overflow: hidden;
+}
+
+#texte2 {
+margin-left: 2rem;
+}
+#texte3 {
+margin-left: 4rem;
+}
+/*Tablettes*/
+@media screen and (max-width:1099px){
 
 }
