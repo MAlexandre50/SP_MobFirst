@@ -2,18 +2,17 @@ html {
 	font-size: 62.5%;
 	background-color: #e8ebeb;
 	height: 100%;
-	margin-right: 13.8%;
-	margin-left: 13.8%;
+	
 	
 }
 
 
 
-.row sponsoredproduct {
+#product {
 	background-color: white;
 	height: 100%;
-	margin-right: 10%;
-	margin-left: 10%;
+	margin-left: 20rem;
+	margin-right: 20rem;
 	
 }
 
@@ -29,14 +28,15 @@ html {
 	justify-content: center;
 	align-content: space-between;
 	margin-left: 2rem;
+	margin-bottom: 2rem;
 	height: 32rem;
 	width: 25rem;
 }
 
 
-#titre {
+#titre3 {
 	float: left;
-	margin-left: 1.5rem;
+	margin-left: 3.5rem;
 }
 #chaussure1, #chaussure2, #pantalon, #tee-shirt {
 	width: 100%;
@@ -47,19 +47,181 @@ html {
 }
 #prix {
 	position: absolute;
-	top: 90%;
+	color: #558540;
+	font-weight: bold;
+	font-size: 1.5rem;
+	top: 80%;
 	left: 0%;
 }
 
 #prix1 {
 	position: absolute;
-	top: 95%;
+	top: 90%;
 	left: 0%;
 }
 #etoiles{
 	position: absolute;
-	top: 90%;
+	top: 80%;
 	left: 35%;
 }
 
+.informations {
+	background-color: #393939;
+	overflow: visible;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5rem;
+	width: 150%;
+position: absolute;
+left: 0%;
+}
 
+#logo1{
+	background-color: #393939;
+	width: 18rem;
+	height: 12rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 2rem;
+}
+
+#texticone {
+	font-size: 1.5rem;
+	color: white;
+}
+#paiement1 {
+background-color: white;
+	width: 18rem;
+	height: 12rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 2rem;
+	margin-top: 20rem;
+    margin-left: 4rem;
+	
+}
+
+#bouton{
+	background-color: #e5e5e5;
+	width: 10rem;
+	height: 5rem;
+}
+
+.reseausocial {
+	background-color: #558540;
+	overflow: visible;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5rem;
+	width: 150%;
+position: absolute;
+left: 0%;
+color: white;
+}
+
+
+#reseau {
+	width: 6rem;
+	height: 12rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 2rem;
+}
+
+#reseau2 {
+	width: 18rem;
+	height: 12rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 2rem;
+	
+}
+
+#formulaire{
+	width: 50rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 2rem;
+	margin-left: 4%;
+}
+#formulaire1{
+	margin-top: 5rem;
+}
+#rs{
+	
+	color: white;
+	
+}
+#go {
+	background-color: #558540;
+	margin-right: 4rem;
+}
+
+#basdepage {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: space-between;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+	height: 20rem;
+	width: 20rem;
+	font-size: 1.2rem;
+}
+
+#haut {
+	position: absolute;
+    top: 10%;
+    left: 8%;
+	width: 15rem;
+}
+a:hover{
+	color: #558540;
+} 
+
+a{
+	color: black;
+}
+
+#lien {
+ line-height:1.5rem;
+}
+
+#titre {
+font-size: 1.5rem;
+position: absolute;
+margin-left: 0%;
+
+}
+
+
+#textbas {
+width: 80%;
+margin-left: 2%;
+text-align: center;
+line-height:1.5rem;
+
+}
