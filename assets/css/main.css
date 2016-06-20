@@ -131,7 +131,7 @@ color: white;
 
 
 #reseau {
-	width: 6rem;
+	width: 4rem;
 	height: 12rem;
 	display: flex;
 	flex-direction: row;
@@ -231,7 +231,9 @@ line-height:1.5rem;
 
 }
 /*Smartphones*/
-@media screen and (max-width:1439px){
+@media screen 
+  and (max-width: 1439px) 
+  {
 #produits {
 margin-right: 15%;
 }
@@ -297,7 +299,7 @@ background-color: white;
 	align-content: space-around;
 	margin-bottom: 2rem;
     margin-left: 4rem;
-margin-top: 225%;
+margin-top: 50rem;
 	
 }
 
@@ -350,6 +352,7 @@ margin-right: 2rem;
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 5rem;
+	margin-left: -6rem;
 	width: 150%;
 height: 80%;
 position: absolute;
@@ -369,6 +372,197 @@ margin-left: 2rem;
 margin-left: 4rem;
 }
 /*Tablettes*/
-@media screen and (max-width:1099px){
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
 
+}
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+/* ipad*/
+
+#chaussure1, #chaussure2, #pantalon, #tee-shirt {
+width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+}
+
+#produits {
+margin-right: 15%;
+}
+
+#image1, #image2, #image3, #image4 {
+	
+	border-width: 0.1rem;
+    border-style: solid;
+	border-color: #eee8e3;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+	height: 40rem;
+	    width: 40rem;
+}
+
+#grand {
+	font-size: 2rem;
+}
+#logo1{
+	background-color: #393939;
+	width: 12rem;
+	height: 12rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 2rem;
+	margin-left: 6%;
+    margin-right: 6%;
+}
+
+.informations {
+    background-color: #393939;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 150%;
+    position: absolute;
+    left: 0%;
+    margin-left: -10%;
+}
+.payer{
+	margin-left: -10rem;
+    margin-top: 40rem;
+}
+
+.contenant {
+	margin-left: -10rem;
+	margin-top: 10%;
+}
+#paiement1 {
+background-color: white;
+	width: 18rem;
+	height: 8rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 5rem;
+    margin-top: -2%;
+	margin-left: 8rem;
+}
+
+#paiement2 {
+background-color: white;
+	width: 18rem;
+	height: 8rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	margin-bottom: 5rem;
+    margin-top: -2%;
+	margin-left: 8rem;
+
+	
+}
+
+#formulaire{
+	width: 50rem;
+	margin-bottom: 2rem;
+	margin-left: 25rem;
+}
+
+#inscrire {
+
+display: block;
+width: 20rem;
+}
+
+#reseau {
+
+width: 2rem;
+height: 12rem;
+display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+#reseau2 {
+width: 20rem;
+margin-right: 2rem;
+margin-left: 10rem;
+display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+#toutenbas {
+margin-top: 50%;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.reseausocial {
+	background-color: #558540;
+	overflow: visible;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5rem;
+	width: 150%;
+height: 40%;
+position: absolute;
+left: 0%;
+color: white;
+}
+
+.rs3 {
+margin-left: -20%;
+overflow: hidden;
+}
+
+#texte2 {
+margin-left: 2rem;
+}
+#texte3 {
+margin-left: 4rem;
+}
 }
