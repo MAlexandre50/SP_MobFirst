@@ -21,7 +21,14 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
-
+<!-- Style perso -->
++    <link rel="stylesheet" href="assets/css/style.css">
++    
++    <!-- lien vers les polices de caractère -->
++    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
++    <link href='https://fonts.googleapis.com/css?family=Rosario:700' rel='stylesheet' type='text/css'>
+ 
+ 
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
@@ -40,10 +47,138 @@
             <!-- ALEX -->
         </div>
 
-        <div class="row product">
-            <!-- ELODIE -->
-        </div>
-
+       <div class="row product">
+-            <!-- ELODIE -->
++            <!-- fil d'ariane -->
++            <div id="filariane" class="col-lg-10 col-lg-offset-1">
++                <ol class="breadcrumb">
++                    <li class="inactif"><a href="#">Accueil</a></li>
++                    <li class="inactif"><a href="#">Niveau 1</a></li>
++                    <li class="active">Nom du produit ici</li>
++                </ol>
++            </div>
++            
++            <!-- produit -->
++            <div class="col-lg-1 col-lg-offset-1">
++                <a href="#" class="miniature"><img src="images/detail.jpg" alt="détail1"></a><br/>
++                <a href="#" class="miniature"><img src="images/cote.jpg" alt="détail2"></a><br/>
++                <a href="#" class="miniature"><img src="images/semelle.jpg" alt="détail3"></a><br/>
++                <a href="#" class="miniature"><img src="images/vue.png" alt="détail4"></a><br/>
++                <a href="#" class="miniature"><img src="images/video.png" alt="détail5"></a>
++            </div>
++            <div id="produit" class="col-lg-2">
++                <img src="images/chaussure.jpg" alt="produit1">
++            </div>
++            <div id="descrip" class="col-lg-4">
++                <h2>Chaussures de Randonnée Geoxiflux Homme</h2>
++                <div id="avis">
++                    <div class="row">
++                    <div class="col-lg-3">
++                        <strong>Avis de l'Expert</strong>
++                    </div>
++                    <div class="col-lg-3">
++                        <span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star"></span>&nbsp;(4)
++                    </div>
++                    <div class="col-lg-3 avis">
++                        <a href="#">Lire l'avis</a>
++                    </div>
++                    </div>
++                    <div class="row">
++                    <div class="col-lg-3">
++                        <strong>Avis Client</strong>
++                    </div>
++                    <div class="col-lg-3">
++                        <span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star"></span>&nbsp;(4)
++                    </div>
++                    <div class="col-lg-3 avis">
++                        <a href="#">Lire l'avis</a>
++                    </div>
++                    </div>
++                </div>
++                <div id="dispo"  class="col-lg-12">
++                    <span id="grey">Ce produit est disponible dans les coloris suivants :</span><br/>
++                    <a href="#"><img src="images/min_blanc.jpg" alt="blanc"></a>
++                    <a href="#"><img src="images/min_orange.jpg" alt="orange"></a>
++                    <a href="#"><img src="images/min_bleue.jpg" alt="bleue"></a>
++                </div>
++                <div id="reseaux" class="col-lg-12">
++                    <a href="#"><img src="images/face.png" alt="facebook"></a>
++                    <a href="#"><img src="images/twitter.png" alt="twitter"></a>
++                    <a href="#"><img src="images/g+.png" alt="googleplus"></a>
++                    <a href="#"><img src="images/pint.png" alt="pinterest"></a>
++                </div>
++                
++            </div>
++            
++            <div id="ajoutpanier" class="col-lg-2 col-lg-offset-1">
++                <div id="prix">
++                    <div id="barre" class="col-lg-4">
++                    69,99€
++                    </div>
++                    <div id="tarif" class="col-lg-6">
++                    <strong>57,59€</strong>
++                    </div>
++                    <div  id="ttc" call="col-lg-1">
++                    TTC
++                    </div>
++                </div>
++                <div id="choix">
++                    <div id="taille" class="col-lg-6">
++                    Taille
++                    </div>
++                    <div id="taille2" class="col-lg-5 col-lg-offset-1">
++                        <div>
++                            <select class="form-control">
++                                <option value=un>36</option>
++                                <option value=deux>38</option>
++                                <option value=trois>40</option>
++                                <option value=quatre>42</option>
++                                <option value=cinq>44</option>
++                                <option value=six>46</option>
++                            </select>
++                            
++                        </div>
++                    </div>
++                </div>
++                <div id="panier">
++                    <div>
++                        <a href="#"><strong>AJOUTER AU PANIER</strong></a>
++                    </div>
++                </div>
++                <div id="exp">
++                    <div>
++                        <div class="col-lg-1">
++                            <img src="images/check.png">
++                        </div>
++                        <div class="col-lg-8">
++                            <span id="ttc">En stock</span>
++                        </div>
++                    </div>
++                    <br><br>
++                    <div>
++                        <div class="col-lg-1">
++                            <img src="images/exp.png">
++                        </div>
++                        <div class="col-lg-8">
++                            <span id="grey">Expédition <span id="ttc">Gratuite</span> sous 24h</span>
++                        </div>
++                    </div>
++                    <br><br><br>
++                    <div id="grey">
++                        <p style="text-align:center; margin-bottom:0px;">Satisfait ou remboursé </p>
++                    </div>
++                </div>
++            
++            
++            </div>
++            
++            
++            
++            
++            
++            
+         </div>
+         </div>
         <div class="row tabpanel">
             <!-- ELODIE -->
         </div>
