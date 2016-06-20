@@ -1,0 +1,155 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.breadcrumb > .inactif {
+    text-decoration : underline;
+}
+
+.product{
+    padding:10px;
+}
+
+.breadcrumb a, .breadcrumb .active {
+    color:#000 !important;
+}
+
+.breadcrumb{
+    background-color: #fff !important;
+    font-size: 0.8 em;
+}
+
+.miniature img{
+    margin-bottom:5%;
+    height:52px;
+    width:52px;
+    background-color: #fff;
+    border : 1px solid #eee8e3; 
+}
+
+
+
+.glyphicon{
+    padding: 2%;
+}
+
+.orange{
+    color:#f19319;
+}
+
+#avis .row {
+    padding-left: 0 !important;
+}
+
+#dispo, #prix {
+    padding: 2% 0;  
+    border-bottom: 1px solid #eee8e3; 
+}
+
+#dispo img{
+    background-color: #fff;
+    border : 1px solid #eee8e3; 
+    margin-left:3%;
+}
+
+#descrip >div >div{
+    margin-bottom:3%;
+}
+
+#descrip h2{
+    margin-bottom:3%;
+}
+
+#dispo img {
+    margin: 3% 3% 3% 0;
+}
+
+#reseaux {
+    padding: 2% 0;
+}
+
+#reseaux img {
+    margin-right: 2%;
+}
+
+#ajoutpanier{
+    border: 1px solid #eee8e3; 
+}
+
+#barre{
+    text-decoration: line-through;
+    text-align:  left;
+}
+
+#tarif{
+    font-weight: 400;
+    font-size : 2rem;
+    color: #558540;
+    text-align: right !important;
+    margin-top: -2%;
+}
+
+#prix {
+    padding: 5% 2%;
+}
+
+#ttc{
+    color: #558540;
+}
+
+.form-control {
+    background-color: transparent !important;
+    background-image: none;
+    border: none ! important ;
+    border-radius: 0;
+    box-shadow: none;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+#taille{
+    margin-top:3%;
+}
+
+#choix {
+    border-bottom: 1px solid #eee8e3 ;
+    padding-bottom: 15%;
+    padding-top: 3%;
+}
+
+#panier>div{
+    background-color: #558540;
+    color: #eee8e3 ;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #eee8e3 ;
+}
+
+#grey{
+    color: #62605e;
+}
+
+#panier strong {
+    color: #fff;
+    text-decoration:none;
+}
+
+ #panier {
+    border-bottom: 1px solid #eee8e3;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+#exp{
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+    

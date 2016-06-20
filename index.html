@@ -21,13 +21,19 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Style perso -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- lien vers les polices de caractère -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Rosario:700' rel='stylesheet' type='text/css'>
 
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
     <div class="container-fluid wrapper">
-	
         <div class="row superheader">
             <!-- ALEX -->
         </div>
@@ -41,208 +47,158 @@
         </div>
 
         <div class="row product">
-            <!-- ELODIE -->
+            <!-- fil d'ariane -->
+            <div id="filariane" class="col-lg-10 col-lg-offset-1">
+                <ol class="breadcrumb">
+                    <li class="inactif"><a href="#">Accueil</a></li>
+                    <li class="inactif"><a href="#">Niveau 1</a></li>
+                    <li class="active">Nom du produit ici</li>
+                </ol>
+            </div>
+            
+            <!-- produit -->
+            <div class="col-lg-1 col-lg-offset-1">
+                <a href="#" class="miniature"><img src="images/detail.jpg" alt="détail1"></a><br/>
+                <a href="#" class="miniature"><img src="images/cote.jpg" alt="détail2"></a><br/>
+                <a href="#" class="miniature"><img src="images/semelle.jpg" alt="détail3"></a><br/>
+                <a href="#" class="miniature"><img src="images/vue.png" alt="détail4"></a><br/>
+                <a href="#" class="miniature"><img src="images/video.png" alt="détail5"></a>
+            </div>
+            <div id="produit" class="col-lg-2">
+                <img src="images/chaussure.jpg" alt="produit1">
+            </div>
+            <div id="descrip" class="col-lg-4">
+                <h2>Chaussures de Randonnée Geoxiflux Homme</h2>
+                <div id="avis">
+                    <div class="row">
+                    <div class="col-lg-3">
+                        <strong>Avis de l'Expert</strong>
+                    </div>
+                    <div class="col-lg-3">
+                        <span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star"></span>&nbsp;(4)
+                    </div>
+                    <div class="col-lg-3 avis">
+                        <a href="#">Lire l'avis</a>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-3">
+                        <strong>Avis Client</strong>
+                    </div>
+                    <div class="col-lg-3">
+                        <span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star"></span>&nbsp;(4)
+                    </div>
+                    <div class="col-lg-3 avis">
+                        <a href="#">Lire l'avis</a>
+                    </div>
+                    </div>
+                </div>
+                <div id="dispo"  class="col-lg-12">
+                    <span id="grey">Ce produit est disponible dans les coloris suivants :</span><br/>
+                    <a href="#"><img src="images/min_blanc.jpg" alt="blanc"></a>
+                    <a href="#"><img src="images/min_orange.jpg" alt="orange"></a>
+                    <a href="#"><img src="images/min_bleue.jpg" alt="bleue"></a>
+                </div>
+                <div id="reseaux" class="col-lg-12">
+                    <a href="#"><img src="images/face.png" alt="facebook"></a>
+                    <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="images/g+.png" alt="googleplus"></a>
+                    <a href="#"><img src="images/pint.png" alt="pinterest"></a>
+                </div>
+                
+            </div>
+            
+            <div id="ajoutpanier" class="col-lg-2 col-lg-offset-1">
+                <div id="prix">
+                    <div id="barre" class="col-lg-4">
+                    69,99€
+                    </div>
+                    <div id="tarif" class="col-lg-6">
+                    <strong>57,59€</strong>
+                    </div>
+                    <div  id="ttc" call="col-lg-1">
+                    TTC
+                    </div>
+                </div>
+                <div id="choix">
+                    <div id="taille" class="col-lg-6">
+                    Taille
+                    </div>
+                    <div id="taille2" class="col-lg-5 col-lg-offset-1">
+                        <div>
+                            <select class="form-control">
+                                <option value=un>36</option>
+                                <option value=deux>38</option>
+                                <option value=trois>40</option>
+                                <option value=quatre>42</option>
+                                <option value=cinq>44</option>
+                                <option value=six>46</option>
+                            </select>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id="panier">
+                    <div>
+                        <a href="#"><strong>AJOUTER AU PANIER</strong></a>
+                    </div>
+                </div>
+                <div id="exp">
+                    <div>
+                        <div class="col-lg-1">
+                            <img src="images/check.png">
+                        </div>
+                        <div class="col-lg-8">
+                            <span id="ttc">En stock</span>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div>
+                        <div class="col-lg-1">
+                            <img src="images/exp.png">
+                        </div>
+                        <div class="col-lg-8">
+                            <span id="grey">Expédition <span id="ttc">Gratuite</span> sous 24h</span>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div id="grey">
+                        <p style="text-align:center; margin-bottom:0px;">Satisfait ou remboursé </p>
+                    </div>
+                </div>
+            
+            
+            </div>
+            
+            
+            
+            
+            
+            
         </div>
 
         <div class="row tabpanel">
             <!-- ELODIE -->
         </div>
 
-        <div class="row sponsoredproduct" id="produits" style="margin-left: 15%">
-		
-		<h3 id="titre3">Nos clients ayant acheté ce produit ont aussi acheté : </h3>
+        <div class="row sponsoredproduct">
             <!-- AMANDINE -->
-			<div class="col-xs-12 col-sm-12 col-lg=12 col-md=12">
-			
-			<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="image1">
-			<p><b>Chaussures de Randonnée Mixitus Homme</b></p>
-			<img src="images/chaussure1.png" alt="chaussures homme" id="chaussure1">
-			<p id="prix">57,59€</p>
-			<img src="images/etoiles.png" id="etoiles">
-			<p id="prix1">Au lieu de <s>69,99€</s></p>
-			</div>
-			<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="image2">
-			<p><b>Chaussures de Randonnée Geoxiflux Femme</b></p>
-			<img src="images/chaussure2.png" alt="chaussures femme" id="chaussure2">
-			<p id="prix">76,59€</p>
-			<img src="images/etoiles.png" id="etoiles">
-			<p id="prix1">Au lieu de <s>69,99€</s></p>
-			</div>
-			<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="image3">
-			<p><b>Pantalon de Randonnée Quechucha</b></p>
-			<img src="images/pantalon.png" alt="pantalon homme" id="pantalon">
-			<p id="prix">89,99€</p>
-			<img src="images/etoiles.png" id="etoiles">
-			</div>
-			<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="image4">
-			<p><b>Tshirt de randonnée Homme noir</b></p>
-			<img src="images/tee-shirt.png" alt="tee-shirt homme" id="tee-shirt">
-			<p id="prix">57,59€</p>
-			<img src="images/etoiles.png" id="etoiles">
-			<p id="prix1">Au lieu de <s>69,99€</s></p> 
-			</div>
-        
-		</div>
-		</div>
-        
-            <!-- AMANDINE -->
-			
-			<div class="informations col-xs-12 col-sm-12 col-lg=12 col-md=12"  >
-			<div class="col-xs-12 col-sm-9 col-lg=9 col-md=9">
-			
-		<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="logo1">
-		<img src="images/livraison.png" alt="icone livraison" id="livraison">
-		<p id="texticone"> Livraison rapide</p>
-		</div>
-		<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="logo1">
-		<img src="images/thumbs.png" alt="icone pouce levé" id="thumbs">
-		<p id="texticone"> Satisfait ou remboursé</p>
-		</div>
-		<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="logo1">
-		<img src="images/satisfaction.png" alt="icone satisfaction id="livraison">
-		<p id="texticone"> 99% de satisfaction</p>
-		</div>
-		<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="logo1">
-		<img src="images/cadeau.png" alt="icone fidélité" id="livraison">
-		<p id="texticone"> Fidélité récompensée</p>
-		</div>
-		<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="logo1">
-		<img src="images/sécurité.png" alt="icone sécurité" id="livraison">
-		<p id="texticone"> Paiement sécurisé</p>
-		</div>
-		</div>
-		</div>
-	
-        
+        </div>
 
-        <div class="row paymentinfo " id="payer" style="margin-left: 15%">
-		<div class="col-xs-12 col-sm-12 col-lg=12 col-md=12">
+        <div class="row informations">
             <!-- AMANDINE -->
-		<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="paiement2">
-		<p id="text1"> Paiement 100% sécurisé</p>
-		</div>
-		<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="paiement1">
-		<img src="images/cbs.png" alt="icones cartes bancaires" id="cb">
-		</div>
-		<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="paiement1">
-		<img src="images/paypal.png" alt="icones paypal" id="paypal">
-		</div>
-		<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="paiement1">
-		 <button type="button" id="bouton">Chèque</button> 
-		 </div>
-		 <div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="paiement1">
-		 <button type="button" id="bouton">Virement</button> 
-		 </div>
         </div>
-		</div>
-		
-		
-        <div class="reseausocial col-xs-12 col-sm-9 col-lg=9 col-md=9" style="margin-top: 0%">
+
+        <div class="row paymentinfo">
             <!-- AMANDINE -->
-		<div class=" rs3 col-xs-11 col-sm-11 col-lg=11 col-md=11">
-		<div class="col-xs-12 col-sm-5 col-lg=1 col-md=1" id="formulaire">
-		<form method="post" action="#" id="formulaire1">
-		<label for="newsletter" id="inscrire">Notre newsletter </label>
-		<input type="email"   name="newsletter1" id="inscrire">
-		<input type="submit" value="Inscription" id="inscrire1"/>
-		</form>
         </div>
-		<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="reseau2">
-		<p id="texte2">On parle de nous</p>
-		</div>
-		<div class="col-xs-3 col-sm-1 col-lg=1 col-md=1" id="reseau">
-		<a href="#" id="rs"><img src="images/facebook.png" alt="icone facebook" id="rs"></a>
-		</div>
-		<div class="col-xs-3 col-sm-1 col-lg=1 col-md=1" id="reseau">
-		<a href="#" id="rs"><img src="images/twitter.png" alt="icone twitter" id="rs"></a>
-		</div>
-		<div class="col-xs-3 col-sm-1 col-lg=1 col-md=1" id="reseau">
-		<a href="#" id="rs"><img src="images/google.png" alt="icone google+" id="rs"></a>
-		</div>
-		<div class="col-xs-3 col-sm-1 col-lg=1 col-md=1" id="reseau">
-		<a href="#" id="rs"><img src="images/youtube.png" alt="icone youtube" id="rs"></a>
-		</div>
-		<div class="col-xs-3 col-sm-1 col-lg=1 col-md=1" id="reseau2">
-		<p id="texte3">Découvrez le blog Maxicoffee</p>
-		</div>
-		<div class="col-xs-12 col-sm-1 col-lg=1 col-md=1" id="reseau">
-		<a href="#" id="rs"><img src="images/go.png" alt="icone aller vers Maxicoffee" id="go"></a>
-		</div>
-		</div>
-		</div>
-		
-        <div class="row superfooter" id="toutenbas" style="margin-left: 15%">
+
+        <div class="row footer">
             <!-- AMANDINE -->
-		
-			<div class="col-xs-12 col-sm-12 col-lg=12 col-md=12" style="margin-top: 12%">
-			
-			<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="basdepage">
-			<div id="titre">
-			<p><b>Notre marque</b></p>
-			</div>
-			<div id="haut">
-			<p>Brownie cupcake bear claw carrot cake sweet roll pudding. 
-Chocolate bar candy canes sesame snaps. Gummi bears tart jelly beans cheesecake .</p>
-			<a href="#" id="lien">Qui sommes-nous ?</a>
-			</div>
-			</div>
-			<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="basdepage">
-			<div id="titre">
-			<p><b>Un peu plus...</b></p>
-			</div>
-			<div id="haut">
-			<a href="#" id="lien">Aide/Foire aux questions</a>
-			<a href="#" id="lien">Plan du site</a>
-			<a href="#" id="lien">Conditions générales de vente</a>
-			<a href="#" id="lien">Livraison/Tarifs livraison</a>
-			<a href="#" id="lien">Paiement sécurisé</a>
-			<a href="#" id="lien">Témoignage des clients</a>
-			</div>
-			</div>
-			<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="basdepage">
-			<div id="titre">
-			<p><b>Sevice client</b></p>
-			</div>
-			<div id="haut">
-			<a href="#" id="lien">Nous contacter</a></br>
-			<a href="#" id="lien">Suivi de commande</a></br>
-			<a href="#" id="lien">Mot de passe perdu</a></br>
-			</div>
-			</div>
-			<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="basdepage">
-			<div id="titre">
-			<p><b>Qualité et confiance</b></p>
-			</div>
-			<div id="haut">
-			<img src="images/logogoogle.png" alt="logo google" id="google">
-			</div>
-			</div>
-			<div class="col-xs-12 col-sm-2 col-lg=1 col-md=1" id="basdepage">
-			<div id="titre">
-			<p ><b>Conseils téléphonique</b></p>
-			</div>
-			<div id="haut">
-			<p>Besoins d'aide ? Contactez-nous du Lundi au vendredi, de 8h à 18h.</p>
-			<img src="images/phone.png" alt="téléphone" id="phone">
-			</div>
-			</div>
-			</div>
-		</div>
-			
-			 <div class="row footer" style="margin-left: 15%">
+        </div>
+
+        <div class="row superfooter">
             <!-- AMANDINE -->
-		
-			<div class="col-xs-12 col-sm-12 col-lg=12 col-md=12">
-			
-			<div class="col-xs-12 col-sm-12 col-lg=1 col-md=1" id="bas">
-			<div id="textbas">
-			<p>En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de Cookies pour vous proposer des 
-			services et offres adaptés à vos centres d'intérêts.</p>
-			<a href="#">En savoir plus et paramétrer les cookies</a>
-			</div>
-		</div>
-		</div>
-		
         </div>
 
     </div>
