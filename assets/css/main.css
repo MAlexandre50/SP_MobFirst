@@ -483,16 +483,96 @@ basdepage {
 
 }
 /*S5 en paysage*/
-@media screen 
-  and (max-width 640)
-  and (orientation: landscape) {
+@media (orientation: landscape) and (device-width : 640px)
+  {
 #logo1 {
-	margin-right: 20rem;
+	margin-right: 15rem;
+}
+
+#reseau2 {
+    width: 25rem;
+	margin-left: 2rem;
+	margin-right: 10rem;
+}
+
+#image1, #image2, #image3, #image4 {
+	height: 37rem;
+    width: 30rem;
 }
 }
 
 
+@media (orientation: landscape) and (device-width : 731px)
+  {
+#logo1 {
+	margin-right: 15rem;
+}
 
+#reseau2 {
+    width: 25rem;
+	margin-left: 2rem;
+	margin-right: 10rem;
+}
+
+#image1, #image2, #image3, #image4 {
+	height: 37rem;
+    width: 30rem;
+}
+}
+
+@media (orientation: landscape) and (device-width: 568px) {
+	#logo1 {
+width: 10rem;		
+	}
+	
+.contenant {
+	    margin-left: -5rem;
+}
+
+#basdepage {
+    height: 16rem;
+	margin-left: 0%;
+	line-height: 2rem;
+}
+#paiement1, #paiement2 {
+	    height: 5rem;
+}
+	
+	
+	
+#formulaire {
+	margin-left: -3%;
+}
+#reseau2 {
+    width: 25rem;
+    margin-left: -4rem;
+    margin-right: 10rem;
+}
+
+}
+
+
+@media (orientation: landscape) and (device-width : 736px)
+  {
+#logo1 {
+	margin-right: 5rem;
+	width: 10rem;
+}
+.grisfonce {
+    margin-left: -10rem;	
+	
+}
+#reseau2 {
+    width: 30rem;
+	margin-left: 2rem;
+	margin-right: 10rem;
+}
+
+#image1, #image2, #image3, #image4 {
+	height: 37rem;
+    width: 30rem;
+}
+}
 @media only screen 
   and (min-device-width: 800px) 
   and (max-device-width: 1280px) 
@@ -577,7 +657,7 @@ margin-right: 15%;
 }
 .payer{
 	margin-left: -10rem;
-    margin-top: 50%;
+    margin-top: 20%;
 }
 
 .contenant {
@@ -623,6 +703,12 @@ width: 20rem;
     align-content: space-around;
     margin-bottom: 10rem;
     margin-left: 4rem;
+
+}
+
+#reseau2 {
+		width: 12rem;
+	
 }
 
 #rs4 {
