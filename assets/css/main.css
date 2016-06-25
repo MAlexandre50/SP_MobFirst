@@ -96,7 +96,7 @@ left: 0%;
 }
 #paiement1, #paiement2 {
 background-color: white;
-	width: 16rem;
+	width: 20rem;
 	height: 12rem;
 	display: flex;
 	flex-direction: row;
@@ -108,6 +108,10 @@ background-color: white;
 	margin-top: 2rem;
     margin-left: 4rem;
 	
+}
+
+.contenant {
+	    margin-left: -5%;
 }
 
 #bouton{
@@ -125,7 +129,7 @@ background-color: white;
 	margin-top: 5rem;
 	width: 150%;
 position: absolute;
-left: 0%;
+left: -3%;
 color: white;
 }
 
@@ -164,7 +168,7 @@ color: white;
 	align-items: center;
 	align-content: space-around;
 	margin-bottom: 2rem;
-	margin-left: 4%;
+	margin-left: 5%;
 }
 #formulaire1{
 	margin-top: 5rem;
@@ -196,12 +200,16 @@ border-color: #333231;
 	width: 20rem;
 	font-size: 1.2rem;
 }
+.position {
+	margin-top: 4rem;
+	margin-left:-2%;
+}
 
 #haut {
 	position: absolute;
-    top: 10%;
+    top: 12%;
     left: 8%;
-	width: 15rem;
+	width: 17rem;
 }
 a:hover{
 	color: #558540;
@@ -240,34 +248,20 @@ margin-right: 15%;
 
 #image1, #image2, #image3, #image4 {
 	
-	border-width: 0.1rem;
-    border-style: solid;
-	border-color: #eee8e3;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: space-between;
-	margin-left: 2rem;
 	margin-right: 2rem;
-	margin-bottom: 2rem;
-	height: 32rem;
 	width: 20rem;
 }
 
+
+.grisfonce {
+	margin-left: -8%;
+}
+
 #logo1{
-	background-color: #393939;
+	
 	width: 12rem;
-	height: 12rem;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
-	margin-bottom: 2rem;
 	margin-left: 6%;
-    margin-right: 5%;
+    margin-right: 6%;
 	
 }
 
@@ -277,30 +271,18 @@ margin-right: 15%;
 }
 
 #paiement1 {
-background-color: white;
+
 	width: 18rem;
 	height: 8rem;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
 	margin-bottom: 5rem;
     margin-top: -2%;
 	
 }
 
 #paiement2 {
-background-color: white;
+
 	width: 18rem;
 	height: 8rem;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
 	margin-bottom: 2rem;
     margin-left: 4rem;
 margin-top: 8rem;
@@ -320,27 +302,13 @@ width: 20rem;
 }
 
 #reseau {
-
 width: 2rem;
-height: 12rem;
-display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
 }
 
 #reseau2 {
 width: 20rem;
 margin-right: 2rem;
 margin-left: 2rem;
-display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
 }
 
 #toutenbas {
@@ -349,19 +317,13 @@ margin-right: 2rem;
 }
 
 .reseausocial {
-	background-color: #558540;
-	overflow: visible;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-top: 5rem;
-	margin-left: -6rem;
-	width: 150%;
+	
+margin-left: -6rem;	
 height: 80%;
-position: absolute;
 left: 0%;
-color: white;
+
 }
+
 
 .rs3 {
 margin-left: -20%;
@@ -385,16 +347,6 @@ margin-left: 4rem;
 	  
 	  #image1, #image2, #image3, #image4 {
     border-width: 0.1rem;
-    border-style: solid;
-    border-color: #eee8e3;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-between;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    height: 32rem;
     width: 32rem;
 }
 
@@ -407,23 +359,16 @@ margin-left: 4rem;
 }
 
 .informations {
-    background-color: #393939;
-    overflow: visible;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5rem;
-    width: 150%;
-    position: absolute;
-    left: 0%;
+    
     margin-left: -13%;
 }
+
+
 	.contenant {
 		margin-top: 30%;
 	}
 	
 	#paiement1, #paiement2 {
-background-color: white;
     width: 18rem;
     height: 8rem;
     margin-bottom: 5rem;
@@ -461,17 +406,10 @@ position: absolute;
 	
 }
 
-basdepage {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+#basdepage {
     justify-content: center;
     align-content: center;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    height: 20rem;
-    width: 20rem;
-    font-size: 1.2rem;
+    
 }
 
 #haut {
@@ -536,6 +474,7 @@ width: 10rem;
 }
 #paiement1, #paiement2 {
 	    height: 5rem;
+		width: 15rem;
 }
 	
 	
@@ -555,8 +494,9 @@ width: 10rem;
 @media (orientation: landscape) and (device-width : 736px)
   {
 #logo1 {
-	margin-right: 5rem;
-	width: 10rem;
+	margin-right: 2rem;
+    width: 10rem;
+    margin-left: 3rem;
 }
 .grisfonce {
     margin-left: -10rem;	
@@ -573,6 +513,29 @@ width: 10rem;
     width: 30rem;
 }
 }
+
+@media (orientation: landscape) and (device-width : 667px)
+{
+#logo1 {
+margin-right: 20rem;
+	}
+	
+#reseau2 {
+	margin-right: 20rem;
+}
+}
+
+@media (orientation: landscape) and (device-width : 773px)
+{
+.grisfonce {
+	margin-left: -25%;
+}
+
+#reseau2 {
+	margin-right: 30rem;
+}
+}
+
 @media only screen 
   and (min-device-width: 800px) 
   and (max-device-width: 1280px) 
@@ -587,12 +550,9 @@ width: 10rem;
 	
 
 }
+@media (orientation: portrait) and (device-width : 768px)
 
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+ {
 	 
 /* ipad*/
 
@@ -611,16 +571,7 @@ margin-right: 15%;
 #image1, #image2, #image3, #image4 {
 	
 	border-width: 0.1rem;
-    border-style: solid;
-	border-color: #eee8e3;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: space-between;
-	margin-left: 2rem;
 	margin-right: 2rem;
-	margin-bottom: 2rem;
 	height: 50rem;
 	width: 50rem;
 }
@@ -629,31 +580,19 @@ margin-right: 15%;
 	font-size: 2rem;
 }
 #logo1{
-	background-color: #393939;
-	width: 12rem;
+
 	height: 12rem;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
-	margin-bottom: 2rem;
-    margin-right: 6%;
+    margin-right: 20%;
 	
 }
-
+	
 .informations {
-    background-color: #393939;
-    overflow: visible;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5rem;
-    width: 150%;
-    position: absolute;
-    left: 0%;
+
     margin-left: -10%;
+}
+
+.grisfonce {
+	margin-left: -5%;
 }
 .payer{
 	margin-left: -10rem;
@@ -665,20 +604,13 @@ margin-right: 15%;
 	margin-top: 10%;
 }
 #paiement1, #paiement2 {
-background-color: white;
-	width: 18rem;
+
+	width: 12rem;
 	height: 8rem;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
 	margin-bottom: 5rem;
     margin-top: -5rem;
-    margin-left: 10rem;
+    margin-left: 15rem;
 }
-
 
 
 #formulaire{
@@ -702,51 +634,56 @@ width: 20rem;
     align-items: flex-end;
     align-content: space-around;
     margin-bottom: 10rem;
-    margin-left: 4rem;
+    margin-left: 0%;
 
 }
 
 #reseau2 {
-		width: 12rem;
+		width: 30rem;
 	
 }
 
 #rs4 {
 	position: absolute;
 	top: 25%;
+	width: 100%;
+	left: -5%;
+	margin-left: 0%;
 }
 
 .position {
-	margin-top: 50%;
+	margin-top: 4%;
 }
 
-#toutenbas {
-margin-top: 40%;
+.toutenbas {
+ margin-top: -20%;
 margin-left: 2rem;
 margin-right: 2rem;
 }
 #titre {
-font-size: 1.5rem;
+font-size: 3rem;
 position: absolute;
 margin-left: 0%;
 
 }
+#haut {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    width: 50rem;
+}
 
 #basdepage {
 	    margin-right: 5rem;
+		margin-bottom: -8rem;
+    height: 35rem;
+    width: 70rem;
+    font-size: 2rem;
 }
 .reseausocial {
-	background-color: #558540;
-	overflow: visible;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-top: 5rem;
-	width: 150%;
-height: 50rem;
-position: absolute;
-left: 0%;
-color: white;
+height: 25rem;
+left: -2%;
+
 }
 
 .rs3 {
@@ -760,4 +697,151 @@ margin-left: 2rem;
 #texte3 {
 margin-left: 4rem;
 }
+}
+
+@media (orientation: landscape) and (device-width : 1024px)
+{
+	
+	#chaussure1, #chaussure2, #pantalon, #tee-shirt {
+width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+}
+
+#produits {
+margin-right: 15%;
+}
+
+#image1, #image2, #image3, #image4 {
+	
+	border-width: 0.1rem;
+	margin-right: 2rem;
+	height: 50rem;
+	width: 50rem;
+}
+
+#grand {
+	font-size: 2rem;
+}
+#logo1{
+
+	height: 12rem;
+    margin-right: 20%;
+	
+}
+	
+.informations {
+
+    margin-left: -10%;
+}
+
+.grisfonce {
+	margin-left: -5%;
+}
+.payer{
+	margin-left: -10rem;
+    margin-top: 20%;
+}
+
+.contenant {
+	margin-left: -10rem;
+	margin-top: 10%;
+}
+#paiement1, #paiement2 {
+
+	width: 12rem;
+	height: 8rem;
+	margin-bottom: 5rem;
+    margin-top: -5rem;
+    margin-left: 15rem;
+}
+
+
+#formulaire{
+	width: 50rem;
+	margin-bottom: 2rem;
+	margin-left: 15rem;
+}
+
+#inscrire {
+
+display: block;
+width: 20rem;
+}
+
+
+#reseau, #reseau2 {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: space-around;
+    margin-bottom: 10rem;
+    margin-left: 0%;
+
+}
+
+#reseau2 {
+		width: 30rem;
+	
+}
+
+#rs4 {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	left: -5%;
+	margin-left: 10%;
+}
+
+.position {
+	margin-top: 4%;
+}
+
+.toutenbas {
+ margin-top: -20%;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+#titre {
+margin-left: -48%;
+    font-size: 3rem;
+
+}	
+	
+#haut {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    width: 50rem;
+}
+
+#basdepage {
+	    margin-right: 5rem;
+		margin-bottom: -8rem;
+    height: 35rem;
+    width: 70rem;
+    font-size: 2rem;
+}
+.reseausocial {
+height: 25rem;
+left: -2%;
+
+}
+
+.rs3 {
+margin-left: -20%;
+overflow: hidden;
+}
+/*Commmentaire*/
+#texte2 {
+margin-left: 2rem;
+}
+#texte3 {
+margin-left: 4rem;
+}	
 }
