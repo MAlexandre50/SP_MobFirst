@@ -53,7 +53,7 @@
         </div>
 
         <div class="row product">
-            <!-- fil d'ariane -->
+           <!-- fil d'ariane -->
             <div id="filariane" class="col-lg-10 col-lg-offset-1 col-sm-12 col-xs-12">
                 <ol class="breadcrumb">
                     <li class="inactif"><a href="#">Accueil</a></li>
@@ -128,22 +128,22 @@
             </div>
             <!-- panier -->
             <div id="ajoutpanier" class="col-lg-2 col-lg-offset-1  col-sm-6 col-sm-offset-3">
-                <div id="prix">
-                    <div id="barre" class="col-lg-4">
+                <div id="price">
+                    <div id="barre" class="col-lg-4 col-xs-4">
                     69,99€
                     </div>
-                    <div id="tarif" class="col-lg-6">
+                    <div id="tarif" class="col-lg-6 col-xs-6">
                     <strong>57,59€</strong>
                     </div>
-                    <div  id="ttc" call="col-lg-1">
+                    <div  id="ttc" call="col-lg-1 col-xs-1">
                     TTC
                     </div>
                 </div>
                 <div id="choix">
-                    <div id="taille" class="col-lg-6">
+                    <div id="taille" class="col-lg-6 col-xs-6">
                     Taille
                     </div>
-                    <div id="taille2" class="col-lg-5 col-lg-offset-1">
+                    <div id="taille2" class="col-lg-5 col-lg-offset-1 col-xs-offset-1 col-xs-5">
                         <div>
                             <select class="form-control">
                                 <option value=un>36</option>
@@ -190,21 +190,19 @@
 
         
         
-        
+      <!-- navtabs grand -->  
         
         <div class="row tabpanel">
-           
-            <!-- navtabs grand -->
             <div class="col-lg-12 hidden-xs hidden-sm hidden-md">              
                 <ul class="nav nav-tabs" id="myTab">
-                  <li class="active"><a data-toggle="tab" href="#menu1">DESCRIPTION</a></li>
-                  <li><a data-toggle="tab" href="#menu2">CARACTERISTIQUES</a></li>
-                  <li><a data-toggle="tab" href="#menu3">AVIS (125) <span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star gris"></span></a></li>
+                  <li class="active"><a role="tab" data-toggle="tab" href="#menu1">DESCRIPTION</a></li>
+                  <li><a role="tab" data-toggle="tab" href="#menu2">CARACTERISTIQUES</a></li>
+                  <li><a role="tab" data-toggle="tab" href="#menu3">AVIS (125) <span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star gris"></span></a></li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
-                  <div id="menu1" class="tab-pane fade active in">
+                  <div id="menu1" class="tab-pane fade active in"  role="tabpanel" >
                     <div class="col-lg-7">
-                        <div id="titre">
+                        <div id="tit">
                             <span class="glyphicon glyphicon-triangle-right green"></span>
                             <h3>La chaussure idéale pour des randonnées</h3>
                         </div>
@@ -227,7 +225,7 @@
                     
                   <div class="col-lg-3 col-lg-offset-2">
                     
-                      <div id="titre">
+                      <div id="tit">
                             <span class="glyphicon glyphicon-triangle-right green deux"></span>
                             <h3>Les photos de nos clients</h3>
                       </div>
@@ -240,7 +238,7 @@
                                 <div class="item active">  
                                     <div class="carousel-page">
                                         <img src="images/client.jpg" class="img-responsive" style="margin:0px auto;" />
-                                        <div id="titre">
+                                        <div id="tit">
                                         <h4>Matthieu, 29 ans - FRANCE</h4>
                                         </div>
                                     </div> 
@@ -249,7 +247,7 @@
                                 <div class="item"> 
                                     <div class="carousel-page">
                                         <img src="images/client.jpg" class="img-responsive img-rounded" style="margin:0px auto;"  />
-                                        <div id="titre">
+                                        <div id="tit">
                                         <h4>Matthieu, 29 ans - FRANCE</h4>
                                         </div>
                                     </div>
@@ -258,7 +256,7 @@
                                 <div class="item">  
                                     <div class="carousel-page">
                                         <img src="images/client.jpg" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"  />
-                                        <div id="titre">
+                                        <div id="tit">
                                         <h4>Matthieu, 29 ans - FRANCE</h4>
                                         </div>
                                     </div>  
@@ -278,171 +276,167 @@
                                         </div>
 
                    
-                  <div id="menu2" class="tab-pane fade">
+                  <div id="menu2" class="tab-pane fade" role="tabpanel">
                     <p><br>contenu de la page 2</p>
                   </div>
-                  <div id="menu3" class="tab-pane fade">
+                  <div id="menu3" class="tab-pane fade" role="tabpanel">
                     <p><br>contenu de la page 3</p>
                   </div>
                     </div>	 
                 </div>
+        </div>
             
             <!--tablette-->
+        <div class="row tabpanel">
                 <div class="col-sm-12 hidden-xs hidden-lg hidden-md">              
-                <ul class="nav nav-tabs " id="myTab">
-                  <li class="active" id="tablette"><a data-toggle="tab" href="#menu1">DESCRIPTION</a></li>
-                  <li id="tablette"><a data-toggle="tab" href="#menu2">CARACTERISTIQUES</a></li>
-                  <li id="tablette"><a data-toggle="tab" href="#menu3">AVIS (125) <span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star gris"></span></a></li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                  <div id="menu1" class="tab-pane fade active in">
-                    <div>
-                        <div id="titre">
-                            <span class="glyphicon glyphicon-triangle-right green"></span>
-                            <h3>La chaussure idéale pour des randonnées</h3>
+                    <ul class="nav nav-tabs nav-justified" id="myTab">
+                      <li id="tablette" class="active"><a role="tab" data-toggle="tab" href="#menu12">DESCRIPTION</a></li>
+                      <li id="tablette"><a role="tab" data-toggle="tab" href="#menu22">CARACTERISTIQUES</a></li>
+                      <li id="tablette"><a role="tab" data-toggle="tab" href="#menu32">AVIS (125) <span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star gris"></span></a></li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                      <div id="menu12" class="tab-pane fade active in" role="tabpanel">
+                        <div>
+                            <div id="tit">
+                                <span class="glyphicon glyphicon-triangle-right green"></span>
+                                <h3>La chaussure idéale pour des randonnées</h3>
+                            </div>
+                            <div class="arg">
+                                <span class="glyphicon glyphicon-ok orange"></span>
+                                <h4>Un super argument marketing</h4>
+                                <span class="grey">Gummies cotton candy tiramisu cake fruitcake. Jelly pastry chupa chups jelly-o cake dragée. Toffee cake donut powder wafer gingerbread cupcake. Danish lollipop soufflé chocolate candy tootsie roll lemon drops.<br><br>Dessert danish ice cream ice cream pie tart gummies gummies tiramisu. Lemon drops lollipop biscuit. </span>
+                            </div>
+                            <div class="arg">
+                                <span class="glyphicon glyphicon-ok orange"></span>
+                                <h4>Un autre ici</h4>
+                                <span class="grey">Gummies cotton candy tiramisu cake fruitcake. Jelly pastry chupa chups jelly-o cake dragée. Toffee cake donut powder wafer gingerbread cupcake. <br><br>Danish lollipop soufflé chocolate candy tootsie roll lemon drops. Dessert danish ice cream ice cream pie tart gummies gummies tiramisu.<br><br>Lemon drops lollipop biscuit. Lemon drops sweet sugar plum ice cream sugar plum sweet dessert croissant fruitcake. </span>
+                            </div>
+                            <div class="arg">
+                                <span class="glyphicon glyphicon-ok orange"></span>
+                                <h4>Encore un argument</h4>
+                                <span class="grey">Gummies cotton candy tiramisu cake fruitcake. Jelly pastry chupa chups jelly-o cake dragée. Toffee cake donut powder wafer gingerbread cupcake. Danish lollipop soufflé chocolate candy tootsie roll lemon drops. <br><br>Dessert danish ice cream ice cream pie tart gummies gummies tiramisu. Lemon drops lollipop biscuit. Lemon drops sweet sugar plum ice cream sugar.  <br><br>Plum sweet dessert croissant fruitcake. </span>
+                            </div>
                         </div>
-                        <div class="arg">
-                            <span class="glyphicon glyphicon-ok orange"></span>
-                            <h4>Un super argument marketing</h4>
-                            <span class="grey">Gummies cotton candy tiramisu cake fruitcake. Jelly pastry chupa chups jelly-o cake dragée. Toffee cake donut powder wafer gingerbread cupcake. Danish lollipop soufflé chocolate candy tootsie roll lemon drops.<br><br>Dessert danish ice cream ice cream pie tart gummies gummies tiramisu. Lemon drops lollipop biscuit. </span>
-                        </div>
-                        <div class="arg">
-                            <span class="glyphicon glyphicon-ok orange"></span>
-                            <h4>Un autre ici</h4>
-                            <span class="grey">Gummies cotton candy tiramisu cake fruitcake. Jelly pastry chupa chups jelly-o cake dragée. Toffee cake donut powder wafer gingerbread cupcake. <br><br>Danish lollipop soufflé chocolate candy tootsie roll lemon drops. Dessert danish ice cream ice cream pie tart gummies gummies tiramisu.<br><br>Lemon drops lollipop biscuit. Lemon drops sweet sugar plum ice cream sugar plum sweet dessert croissant fruitcake. </span>
-                        </div>
-                        <div class="arg">
-                            <span class="glyphicon glyphicon-ok orange"></span>
-                            <h4>Encore un argument</h4>
-                            <span class="grey">Gummies cotton candy tiramisu cake fruitcake. Jelly pastry chupa chups jelly-o cake dragée. Toffee cake donut powder wafer gingerbread cupcake. Danish lollipop soufflé chocolate candy tootsie roll lemon drops. <br><br>Dessert danish ice cream ice cream pie tart gummies gummies tiramisu. Lemon drops lollipop biscuit. Lemon drops sweet sugar plum ice cream sugar.  <br><br>Plum sweet dessert croissant fruitcake. </span>
-                        </div>
-                    </div>
                     
-                  <div>
-                    
-                      <div id="titre">
-                            <span class="glyphicon glyphicon-triangle-right green deux"></span>
-                            <h3>Les photos de nos clients</h3>
-                      </div>
-                      
-                        <div id="my_carousel" class="carousel slide col-sm-12" data-ride="carousel">
-                           
-                          <!-- Slides -->
-                            <div class="carousel-inner">
-                                <!-- Page 1 -->
-                                <div class="item active">  
-                                    <div class="carousel-page">
-                                        <div id="car2" class="col-sm-6">
-                                        <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
-                                        <div id="titre">
-                                        <h4>Matthieu, 29 ans - FRANCE</h4>
-                                        </div>
-                                        </div>
-                                        <div id="car2" class="col-sm-6">
-                                        <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
-                                        <div id="titre">
-                                        <h4>Matthieu, 29 ans - FRANCE</h4>
-                                        </div>
-                                        </div>
-                                    </div> 
-                                </div>   
-                                <!-- Page 2 -->
-                                <div class="item"> 
-                                    <div class="carousel-page">
-                                        <div id="car2" class="col-sm-6">
-                                        <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
-                                        <div id="titre">
-                                        <h4>Matthieu, 29 ans - FRANCE</h4>
-                                        </div>
-                                        </div>
-                                        <div id="car2" class="col-sm-6">
-                                        <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
-                                        <div id="titre">
-                                        <h4>Matthieu, 29 ans - FRANCE</h4>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <!-- Page 3 -->
-                                <div class="item">  
-                                    <div class="carousel-page">
-                                        <div id="car2" class="col-sm-6">
-                                        <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
-                                        <div id="titre">
-                                        <h4>Matthieu, 29 ans - FRANCE</h4>
-                                        </div>
-                                        </div>
-                                        <div id="car2" class="col-sm-6">
-                                        <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
-                                        <div id="titre">
-                                        <h4>Matthieu, 29 ans - FRANCE</h4>
-                                        </div>
+                      <div>
+
+                          <div id="tit">
+                                <span class="glyphicon glyphicon-triangle-right green deux"></span>
+                                <h3>Les photos de nos clients</h3>
+                          </div>
+
+                            <div id="my_carousel" class="carousel slide col-sm-12" data-ride="carousel">
+
+                              <!-- Slides -->
+                                <div class="carousel-inner">
+                                    <!-- Page 1 -->
+                                    <div class="item active">  
+                                        <div class="carousel-page">
+                                            <div id="car2" class="col-sm-6">
+                                            <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
+                                            <div id="tit">
+                                            <h4>Matthieu, 29 ans - FRANCE</h4>
+                                            </div>
+                                            </div>
+                                            <div id="car2" class="col-sm-6">
+                                            <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
+                                            <div id="tit">
+                                            <h4>Matthieu, 29 ans - FRANCE</h4>
+                                            </div>
+                                            </div>
+                                        </div> 
+                                    </div>   
+                                    <!-- Page 2 -->
+                                    <div class="item"> 
+                                        <div class="carousel-page">
+                                            <div id="car2" class="col-sm-6">
+                                            <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
+                                            <div id="tit">
+                                            <h4>Matthieu, 29 ans - FRANCE</h4>
+                                            </div>
+                                            </div>
+                                            <div id="car2" class="col-sm-6">
+                                            <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
+                                            <div id="tit">
+                                            <h4>Matthieu, 29 ans - FRANCE</h4>
+                                            </div>
+                                            </div>
                                         </div>
                                     </div>  
-                                </div>     
-                            </div>
-                            <!-- Contrôles -->
-                                <a class="left carousel-control" href="#my_carousel" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left orange"></span>
-                                </a>
-                                <a class="right carousel-control" href="#my_carousel" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right orange"></span>
-                                </a>
-                        </div>                                                                                           
-                      
-                        
-                      </div>  
-                </div>
-
-                   
-                  <div id="menu2" class="tab-pane fade">
-                    <p><br>contenu de la page 2</p>
-                  </div>
-                  <div id="menu3" class="tab-pane fade">
-                    <p><br>contenu de la page 3</p>
-                  </div>
-                    </div>	 
-                </div>
-            
+                                    <!-- Page 3 -->
+                                    <div class="item">  
+                                        <div class="carousel-page">
+                                            <div id="car2" class="col-sm-6">
+                                            <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
+                                            <div id="tit">
+                                            <h4>Matthieu, 29 ans - FRANCE</h4>
+                                            </div>
+                                            </div>
+                                            <div id="car2" class="col-sm-6">
+                                            <img src="images/client.jpg" class="img-responsive" style="margin:0px 0;" />
+                                            <div id="tit">
+                                            <h4>Matthieu, 29 ans - FRANCE</h4>
+                                            </div>
+                                            </div>
+                                        </div>  
+                                    </div>     
+                                </div>
+                                <!-- Contrôles -->
+                                    <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left orange"></span>
+                                    </a>
+                                    <a class="right carousel-control" href="#my_carousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right orange"></span>
+                                    </a>
+                            </div>                                                                                           
+                          </div>  
+                        </div>
+                        <div id="menu22" class="tab-pane fade" role="tabpanel">
+                            <p><br>contenu de la page 2</p>
+                        </div>
+                        <div id="menu32" class="tab-pane fade" role="tabpanel">
+                            <p><br>contenu de la page 3</p>
+                        </div>
+                    </div>
+            </div>
+        
+        
             <!-- phone -->
-            <div class="col-xs-12 hidden-lg hidden-sm hidden-md">              
-                <ul class="nav nav-tabs" id="myTab">
-                  <li id="tablette" class="active"><a data-toggle="tab" href="#menu1">DESCRIPTION</a></li>
-                  <li id="tablette" ><a data-toggle="tab" href="#menu2">CARACTERISTIQUES</a></li>
-                  <li id="tablette" ><a data-toggle="tab" href="#menu3">AVIS (125) <span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star gris"></span></a></li>
+        <div class="row tabpanel">
+            <div class="col-xs-10 col-xs-offset-1 hidden-lg hidden-sm hidden-md">
+                 <ul class="nav nav-tabs iphone" id="myTab">
+                     <li id="phone" class="active"><a role="tab" data-toggle="tab" href="#menu13"><span class="pull-left">DESCRIPTION</span><span class="glyphicon glyphicon-minus pull-right"></span><span class="glyphicon glyphicon-plus pull-right"></span></a></li>
+                     <li id="phone" ><a role="tab" data-toggle="tab" href="#menu23"><span class="pull-left">CARACTERISTIQUES</span><span class="glyphicon glyphicon-minus pull-right"></span><span class="glyphicon glyphicon-plus pull-right"></span></a></li>
+                     <li id="phone" ><a role="tab" data-toggle="tab" href="#menu33"><span class="pull-left">AVIS (125)</span> <span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star orange"></span><span class="glyphicon glyphicon-star gris"></span><span class="glyphicon glyphicon-minus pull-right"></span><span class="glyphicon glyphicon-plus pull-right"></span></a></li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
-                  <div id="menu1" class="tab-pane fade active in">
-                    
-                        <div id="titre">
+                  <div id="menu13" class="tab-pane fade active in" role="tabpanel">
+                      <div id="tit">
                             <span class="glyphicon glyphicon-triangle-right green"></span>
                             <h3>La chaussure idéale pour des randonnées</h3>
-                        </div>
-                        <div class="arg">
+                      </div>
+                      <div class="arg">
                             <span class="glyphicon glyphicon-ok orange"></span>
                             <h4>Un super argument marketing</h4>
                             <span class="grey">Gummies cotton candy tiramisu cake fruitcake. Jelly pastry chupa chups jelly-o cake dragée. Toffee cake donut powder wafer gingerbread cupcake. Danish lollipop soufflé chocolate candy tootsie roll lemon drops.<br><br>Dessert danish ice cream ice cream pie tart gummies gummies tiramisu. Lemon drops lollipop biscuit. </span>
-                        </div>
-                        <div class="arg">
+                      </div>
+                      <div class="arg">
                             <span class="glyphicon glyphicon-ok orange"></span>
                             <h4>Un autre ici</h4>
                             <span class="grey">Gummies cotton candy tiramisu cake fruitcake. Jelly pastry chupa chups jelly-o cake dragée. Toffee cake donut powder wafer gingerbread cupcake. <br><br>Danish lollipop soufflé chocolate candy tootsie roll lemon drops. Dessert danish ice cream ice cream pie tart gummies gummies tiramisu.<br><br>Lemon drops lollipop biscuit. Lemon drops sweet sugar plum ice cream sugar plum sweet dessert croissant fruitcake. </span>
-                        </div>
-                        <div class="arg">
+                      </div>
+                      <div class="arg">
                             <span class="glyphicon glyphicon-ok orange"></span>
                             <h4>Encore un argument</h4>
                             <span class="grey">Gummies cotton candy tiramisu cake fruitcake. Jelly pastry chupa chups jelly-o cake dragée. Toffee cake donut powder wafer gingerbread cupcake. Danish lollipop soufflé chocolate candy tootsie roll lemon drops. <br><br>Dessert danish ice cream ice cream pie tart gummies gummies tiramisu. Lemon drops lollipop biscuit. Lemon drops sweet sugar plum ice cream sugar.  <br><br>Plum sweet dessert croissant fruitcake. </span>
-                        </div>
-                    
-                    
-                  
-                    
-                      <div id="titre">
+                      </div>
+                      <div class="col-xs-12">
+                          <div id="tit">
                             <span class="glyphicon glyphicon-triangle-right green deux"></span>
                             <h3>Les photos de nos clients</h3>
-                      </div>
+                          </div>
                       
-                        <div id="my_carousel" class="carousel slide" data-ride="carousel">
+                          <div id="my_carousel" class="carousel slide" data-ride="carousel">
                            
                           <!-- Slides -->
                             <div class="carousel-inner">
@@ -450,16 +444,16 @@
                                 <div class="item active">  
                                     <div class="carousel-page">
                                         <img src="images/client.jpg" class="img-responsive" style="margin:0px auto;" />
-                                        <div id="titre">
+                                        <div id="tit">
                                         <h4>Matthieu, 29 ans - FRANCE</h4>
                                         </div>
-                                     
-                        </div>   
+                                    </div> 
+                                </div>   
                                 <!-- Page 2 -->
                                 <div class="item"> 
                                     <div class="carousel-page">
                                         <img src="images/client.jpg" class="img-responsive img-rounded" style="margin:0px auto;"  />
-                                        <div id="titre">
+                                        <div id="tit">
                                         <h4>Matthieu, 29 ans - FRANCE</h4>
                                         </div>
                                     </div>
@@ -468,7 +462,7 @@
                                 <div class="item">  
                                     <div class="carousel-page">
                                         <img src="images/client.jpg" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"  />
-                                        <div id="titre">
+                                        <div id="tit">
                                         <h4>Matthieu, 29 ans - FRANCE</h4>
                                         </div>
                                     </div>  
@@ -482,19 +476,23 @@
                                     <span class="glyphicon glyphicon-chevron-right orange"></span>
                                 </a>
                         </div>                                                                                            
+                      
+                        
                       </div>  
-                </div>
-
+                    </div>
                    
-                  <div id="menu2" class="tab-pane fade">
+                  <div id="menu23" class="tab-pane fade" role="tabpanel">
                     <p><br>contenu de la page 2</p>
                   </div>
-                  <div id="menu3" class="tab-pane fade">
+                  <div id="menu33" class="tab-pane fade" role="tabpanel">
                     <p><br>contenu de la page 3</p>
                   </div>
-                    </div>	 
+                    	 
                 </div>
-          </div>
+            </div>
+        </div>
+                    
+  <!---------------------------------------------------------------------------------------------------------->  
                     
      
     

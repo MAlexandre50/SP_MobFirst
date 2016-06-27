@@ -48,7 +48,7 @@ body{
     padding-left: 0 !important;
 }
 
-#dispo, #prix {
+#dispo, #price {
     padding: 2% 0;  
     border-bottom: 1px solid #eee8e3; 
 }
@@ -96,7 +96,7 @@ body{
     margin-top: -2%;
 }
 
-#prix {
+#price {
     padding: 5% 2%;
 }
 
@@ -194,13 +194,13 @@ body{
     background:#fff;
 }
 
-#titre span.green{
+#tit span.green{
     float:left;
     padding:2.5% 2% 2.5% 0%;
     color:#558540;
 }
 
-#titre h3 {
+#tit h3 {
     padding-top: 2%;
 }
 
@@ -209,13 +209,17 @@ body{
     padding: 0 1% 0 0 !important;
 }
 
-#titre{
+#tit{
     padding-bottom: 3%;
 }
 
 .arg{
     padding-bottom:2%;
     border-bottom: 1px solid #eee8e3 ;
+}
+
+.arg > .orange{
+    float:left;
 }
 
 .left.carousel-control, .right.carousel-control {
@@ -240,7 +244,7 @@ body{
 }
 
 
-#titre > h4 {
+#tit > h4 {
     text-align: center;
 }
 
@@ -253,6 +257,30 @@ body{
     display:inline-block;
 }
 
-#tablette {
+#phone {
     width: 100%!important;
 }
+
+
+
+.nav-tabs>li>a>.glyphicon-minus{
+    display:block;
+}
+.nav-tabs>li>a>.glyphicon-plus{
+    display:none;
+}
+.nav-tabs>li.active>a>.glyphicon-minus{
+    display:none;
+}
+.nav-tabs>li.active>a>.glyphicon-plus{
+    display:block;
+}
+
+.iphone > .active{
+    background: #fff !important;
+}
+
+#myTab > li {
+    background: #f6f9f9 none repeat scroll 0 0;
+}
+
