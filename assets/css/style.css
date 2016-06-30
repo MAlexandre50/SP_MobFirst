@@ -418,6 +418,7 @@ body{
 }
 
 .search-input{
+    padding-left: 12px;
     height: 41px;
     width: 100%;
 
