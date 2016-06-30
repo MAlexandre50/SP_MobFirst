@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
 
     <!-- Jquery 3.0.0 -->
-    <script src="assets/js/jquery-3.js"></script>
+    <script src="assets/js/jquery-2.2.4.js"></script>
+
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
@@ -27,11 +28,10 @@
     <!-- lien vers les polices de caractère -->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Rosario:700' rel='stylesheet' type='text/css'>
- 
- <!-- lien vers bibli jqueryElodie -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Script perso Jquery -->
+    <script src="assets/js/custom.js"></script>
+
     
     
     
@@ -39,17 +39,104 @@
     <title>Title</title>
 </head>
 <body>
-    <div class="container-fluid wrapper">
+    <div class="wrapper">
+
         <div class="row superheader">
-            <!-- ALEX -->
+            <div>
+                <span class="fa fa-phone fa-lg colorized icon" aria-hidden="true"></span>
+                <p>Besoin d'aide ? Contactez nous du lundi au vendredi de 8h30 à 9h au :</p>
+                <span class="colorized">08 00 00 00 00</span>
+            </div>
+            <div class="shop-info">
+                <span class="fa fa-map-marker fa-lg colorized icon" aria-hidden="true"></span>
+                <p>Nos Magasins</p>
+            </div>
+
         </div>
 
         <div class="row header">
-            <!-- ALEX -->
+            <div class="col-md-3 logo">
+                <img src="images/Brandlogo.png" alt="Logo Sport et Nature">
+            </div>
+
+            <div class="search col-md-5">
+                <div class="input-group">
+                    <input class="search-input" type="text" id="search" placeholder="Je cherche un produit, une marques, etc.">
+                    <div class="input-group-addon"><img src="images/SearchIcon.png" alt="Rechercher"></div>
+                </div>
+            </div>
+            <div class="col-md-4 action-buttons">
+                <div>
+                    <div class="user">
+                        <img src="images/UserIcon.png" alt="Mon Compte">
+                        <span>Mon Compte</span>
+                    </div>
+                    <div class="shopCart">
+                        <img src="images/ShoppingCartIcon.png" alt="Mon panier">
+                        <span>Mon panier</span>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
         <div class="row menu">
-            <!-- ALEX -->
+                <ul class="">
+                    <li class="menu-elements">Chaussures</li>
+                    <li class="menu-elements">Vêtements</li>
+                    <li class="menu-elements">Randonnée</li>
+                    <li class="menu-elements">Pêche</li>
+                    <li class="aux-button"><img src="images/mapIcon.png" alt="cartes et itinéraires">cartes et itinéraires</li>
+                </ul>
+
+                <div class="deployed-menu">
+                    <a class="cat-all-link" href="">Voir toutes les chaussures</a>
+                    <ul>
+                        <li class="col-md-3 cat-container">
+                            <p class="cat-title">Homme Sport</p>
+                            <ul class="cat-list">
+                                <li class="subcat-title"><a href="#">Running - Trail - Athlétisme</a></li>
+                                <li class="subcat-title"><a href="#">Randonnée - Montagne</a></li>
+                                <li class="subcat-title"><a href="#">Sports d'équipe</a></li>
+                                <li class="subcat-title"><a href="#">Sports de raquette</a></li>
+                                <li class="subcat-title"><a href="#">Natation - Piscine</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-md-3 cat-container">
+                            <p class="cat-title">Femme Sport</p>
+                            <ul class="cat-list">
+                                <li class="subcat-title"><a href="#">Running - Trail - Athlétisme</a></li>
+                                <li class="subcat-title"><a href="#">Randonnée - Montagne</a></li>
+                                <li class="subcat-title"><a href="#">Sports d'équipe</a></li>
+                                <li class="subcat-title"><a href="#">Sports de raquette</a></li>
+                                <li class="subcat-title"><a href="#">Natation - Piscine</a></li>
+                                <li class="subcat-title"><a href="#">Sports de combat</a></li>
+                                <li class="subcat-title"><a href="#">Vélo</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-md-3 cat-container">
+                            <p class="cat-title">Enfant Sport</p>
+                            <ul class="cat-list">
+                                <li class="subcat-title"><a href="#">Sports d'équipe</a></li>
+                                <li class="subcat-title"><a href="#">Sports de raquette</a></li>
+                                <li class="subcat-title"><a href="#">Danse</a></li>
+                                <li class="subcat-title"><a href="#">Equitation - Golf</a></li>
+                                <li class="subcat-title"><a href="#">Natation - Piscine</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-md-3 cat-container">
+                            <p class="cat-title">Accesoires</p>
+                            <ul class="cat-list">
+                                <li class="subcat-title"><a href="#">Semelles - Lacets</a></li>
+                                <li class="subcat-title"><a href="#">Entretien</a></li>
+                                <li class="subcat-title"><a href="#">Crampons</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
         </div>
 
         <div class="row product">
@@ -287,7 +374,7 @@
         </div>
             
             <!--tablette-->
-        <div class="row tabpanel">
+        < class="row tabpanel">
                 <div class="col-sm-12 hidden-xs hidden-lg hidden-md">              
                     <ul class="nav nav-tabs nav-justified" id="myTab">
                       <li id="tablette" class="active"><a role="tab" data-toggle="tab" href="#menu12">DESCRIPTION</a></li>
@@ -635,8 +722,7 @@
 			<p><b>Notre marque</b></p>
 			</div>
 			<div id="haut">
-			<p>Brownie cupcake bear claw carrot cake sweet roll pudding. 
-Chocolate bar candy canes sesame snaps. Gummi bears tart jelly beans cheesecake .</p>
+			<p>Brownie cupcake bear claw carrot cake sweet roll pudding. Chocolate bar candy canes sesame snaps. Gummi bears tart jelly beans cheesecake .</p>
 			<a href="#" id="lien">Qui sommes-nous ?</a>
 			</div>
 			</div>
