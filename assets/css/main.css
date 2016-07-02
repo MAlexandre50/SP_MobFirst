@@ -6,55 +6,39 @@ html {
 	
 }
 
-.fond {
-	background-color: white;
-}
-#titre3 {
-    float: left;
-}
-
-#image1, #image2, #image3, #image4 {
-    border-width: 0.1rem;
-border-style: solid;
-border-color: #eee8e3;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-content: space-between;
-margin-right: 2rem;
-margin-bottom: 2rem;
-height: 32rem;
-width: 25rem;
+.chauss {
+    border: 1px solid #eee8e3;;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
 }
 
-#chaussure1, #chaussure2, #pantalon, #tee-shirt {
-    width: 100%;
-    position: absolute;
-    top: 20%;
-    left: 0%;
+#produits {
+    margin-bottom: 2%;
+    z-index:1000;
+}
+
+#grand > b {
+  font-size: 1.1em;
+}
+
+.chauss > p {
+  text-align: left;
 }
 
 #prix {
-    position: absolute;
     color: #558540;
-    font-weight: bold;
-    font-size: 1.5rem;
-    top: 80%;
-    left: 0%;
-}
-
-#etoiles {
-    position: absolute;
-    top: 80%;
-    left: 35%;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
 }
 
 #prix1 {
-    position: absolute;
-    top: 90%;
-    left: 0%;
-	
+  color: #62605e;
+  font-size: 1rem;
+  font-weight: 100;
+  padding-bottom: 1%;
+  text-align: left;
 }
 
 #logo1 {
@@ -65,14 +49,14 @@ text-align: center;
 	background-color: rgb(57, 57, 57);
 	margin-top: 6rem;
 }
-
+.payer {
+	background-color: white;
+}
 #texticone {
 	font-size: 1.5rem;
 	color: white;
 }
-.payer {
-	margin-top: 2rem;
-}
+
 
 #paiement1 {
 text-align: center;
@@ -105,9 +89,10 @@ height: 41px;
 .reseausocial {
 	background-color: #558540;
 	padding-top: 2rem;
-	margin-top: 1rem;
+	text-align: center;
 }
 
+	
 #inscrire1 {
 background-color: #333231;
 border-color: #333231;
@@ -124,6 +109,10 @@ color : white;
 
 #reseau2, #formulaire {
 margin-top: 1rem;
+}
+
+.position, .positions {
+	background-color: white;
 }
 
 #basdepage, #fin {
@@ -144,7 +133,7 @@ text-align: center;
 }
 
 #google, #telephone{
-	width: 10rem;
+	width: 90%;
 }
 
  
