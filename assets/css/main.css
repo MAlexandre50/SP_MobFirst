@@ -13,12 +13,12 @@ html {
     text-align: center;
 }
 
-#produits {
+[id="produits"] {
     margin-bottom: 2%;
     z-index:1000;
 }
 
-#grand > b {
+[id="grand"] > b {
   font-size: 1.1em;
 }
 
@@ -26,14 +26,14 @@ html {
   text-align: left;
 }
 
-#prix {
+[id="prix"] {
     color: #558540;
     font-size: 2rem;
     font-weight: 700;
     text-align: left;
 }
 
-#prix1 {
+[id="prix1"] {
   color: #62605e;
   font-size: 1rem;
   font-weight: 100;
@@ -41,7 +41,7 @@ html {
   text-align: left;
 }
 
-#logo1 {
+[id="logo1"] {
 text-align: center;
 }
 
@@ -52,28 +52,29 @@ text-align: center;
 .payer {
 	background-color: white;
 }
-#texticone {
+[id="texticone"] {
 	font-size: 1.5rem;
 	color: white;
 }
 
 
-#paiement1 {
+[id="paiement1"] {
 text-align: center;
 }
-#bouton {
+[id="bouton"] {
 	text-align : center;
 	margin-top: 2rem;
+	margin-bottom: 1rem;
 	overflow: hidden;
 }
 
-#text1 {
+[id="text1"] {
 padding-top: 2.5rem;
 padding-bottom: 2.5rem;
 text-align: center;
 }
 
-#paypal, #cb {
+[id="paypal"], [id="cb"] {
 padding-top: 1rem;
 text-align: center;
 overflow: visible;
@@ -82,7 +83,7 @@ overflow: visible;
 
 
 
-#cb{
+[id="cb"]{
 width: 61px;
 height: 41px;
 }
@@ -93,46 +94,47 @@ height: 41px;
 }
 
 	
-#inscrire1 {
+[id="inscrire1"] {
 background-color: #333231;
 border-color: #333231;
 color: white;	
 }
 
-#inscrire, #texte2, #texte3 {
+[id="inscrire"], [id="texte2"], [id="texte3"] {
 color : white;
 }
 
-#rs {
+[id="rs"] {
 	margin-left: 1rem;
 }
 
-#reseau2, #formulaire {
+[id="#reseau2"], [id="formulaire"] {
 margin-top: 1rem;
+margin-bottom: 1rem;
 }
 
 .position, .positions {
 	background-color: white;
 }
 
-#basdepage, #fin {
+[id="basdepage"], [id="fin"] {
 margin-top: 1rem;
 text-align: center;
 }
-#lien{
+[id="lien"]{
 	color: black;
 }
-#lien:hover{
+[id="lien"]:hover{
 	color: #558540;
 } 
 
 
 
-#titre {
+[id="titre"] {
 	text-align: left;
 }
 
-#google, #telephone{
+[id="google"], [id="telephone"]{
 	width: 90%;
 }
 
