@@ -105,7 +105,8 @@ color : white;
 }
 
 [id="rs"] {
-	margin-left: 1rem;
+	margin-left: 0.5rem;
+	margin-top: 1rem;
 }
 
 [id="#reseau2"], [id="formulaire"] {
