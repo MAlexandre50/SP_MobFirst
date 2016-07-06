@@ -360,6 +360,7 @@ body{
     right: 0px;
     position: absolute;
     padding-right: 15px;
+    margin-top: -2px;
 }
 
 .aux-button img{
@@ -369,9 +370,11 @@ body{
 
 .deployed-menu{
     width: 100%;
+    height:250px;
     background-color: white;
     z-index: 100;
     display: none;
+    padding-left: 10%;
 }
 
 .displayed{
@@ -403,6 +406,9 @@ body{
 
 .cat-all-link{
     text-transform: uppercase;
+    color: #457132;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .user{
@@ -449,6 +455,124 @@ body{
     float: right;
 }
 
+.menu-open{
+    display: none;
+}
+
+.menu-close{
+    display: inline;
+}
+
+.plus{
+    display: inline;
+    float: right;
+}
+
+.moins{
+    display: none;
+    float: right;
+}
+
+.topBar-mobile{
+    display: none;
+}
+
+.logo-mobile{
+    height:45px;
+}
+
+.mob-icon{
+    display: inline-flex;
+}
+
+.panel-group{
+    background: white;
+    margin-bottom: 0px;
+
+}
+
+.menu-mobile{
+    margin-top:-5px !important;
+}
+.mob-info{
+    display: inline-flex;
+    width:100%;
+    text-align:center;
+}
+
+.mob-elements{
+    margin-right: auto;
+    margin-left: auto;
+}
+.mob-info-element{
+    display:inline-flex;
+    background: #282828;
+    color: #e57e17;
+    width:160px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:25px;
+}
+
+.icon-mob{
+    line-height: 35px;
+    margin-right: 10px;
+    margin-left: 10px
+}
+.black-btn{
+    background: #282828;
+    color: #e57e17;
+    height:60px;
+    line-height: 60px;
+    padding-left:25px;
+    text-transform: uppercase;
+
+}
+
+.black-btn > img{
+    margin-right: 10px;
+}
+
+.panel-group .panel-heading{
+    border-bottom: 1px solid #e0d9d4;
+}
+
+.mob-cat-link{
+    text-transform: uppercase;
+    color: #545455;
+}
+
+@media screen and (max-width: 700px) {
+    .header, .superheader, .menu{
+        display: none;
+    }
+
+    .topBar-Mobile{
+        display: inline-block;
+        width:100%;
+        height:55px;
+        line-height:55px;
+        background: #e6e6e6;
+
+    }
+}
+
+.subcat-title > a{
+    color: #457132;
+}
+
+@media screen and (min-width: 700px) {
+    .header, .superheader, .menu{
+        display: block;
+    }
+
+    .mobiledisplay{
+        display: none;
+
+    }
+}
 
 /* backgrounds */
 .row.header {

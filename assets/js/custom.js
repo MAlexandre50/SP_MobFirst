@@ -17,6 +17,16 @@ $(document).ready(function(){
 
 
 
+    $('.menu-trigger').click(function(){
+        $('.menu-open').toggle();
+        $('.menu-close').toggle();
+        $('.search').toggle();
+    });
+
+    $('.mob-cat-link').click(function(){
+        $(this).children().toggle();
+
+    })
 
 
 });
