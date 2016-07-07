@@ -19,7 +19,7 @@ html {
     z-index:1000;
 }
 
-[id="grand"] > b {
+.grand > b {
   font-size: 1.1em;
 }
 
@@ -27,14 +27,14 @@ html {
   text-align: left;
 }
 
-[id="prix"] {
+.prix {
     color: #558540;
     font-size: 2rem;
     font-weight: 700;
     text-align: left;
 }
 
-[id="prix1"] {
+.prix1 {
   color: #62605e;
   font-size: 1rem;
   font-weight: 100;
@@ -101,7 +101,7 @@ border-color: #333231;
 color: white;	
 }
 
-[id="inscrire"], [id="texte2"], [id="texte3"] {
+.inscrire, [id="texte2"], [id="texte3"] {
 color : white;
 }
 

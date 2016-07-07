@@ -111,7 +111,7 @@ body{
     padding: 5% 2%;
 }
 
-#ttc{
+.ttc{
     color: #558540;
 }
 
@@ -151,7 +151,7 @@ body{
     border-bottom: 1px solid #eee8e3 ;
 }
 
-#grey{
+.gray{
     color: #62605e;
 }
 
@@ -210,13 +210,13 @@ body{
     background:#fff;
 }
 
-#tit span.green{
+.tit span.green{
     float:left;
     padding:2.5% 2% 2.5% 0%;
     color:#558540;
 }
 
-#tit h3 {
+.tit h3 {
     padding-top: 2%;
 }
 
@@ -225,7 +225,7 @@ body{
     padding: 0 1% 0 0 !important;
 }
 
-#tit{
+.tit{
     padding-bottom: 3%;
 }
 
@@ -260,7 +260,7 @@ body{
 }
 
 
-#tit > h4 {
+.tit > h4 {
     text-align: center;
 }
 
@@ -273,7 +273,7 @@ body{
     display:inline-block;
 }
 
-#phone {
+.phone {
     width: 100%!important;
 }
 
