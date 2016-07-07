@@ -268,7 +268,7 @@ body{
     margin-top: 2%;
 }
 
-#car2{
+.car2{
     float:left !important;
     display:inline-block;
 }
