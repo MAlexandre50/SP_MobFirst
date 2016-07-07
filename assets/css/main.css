@@ -42,7 +42,7 @@ html {
   text-align: left;
 }
 
-[id="logo1"] {
+.logo1 {
 text-align: center;
 }
 
@@ -53,16 +53,16 @@ text-align: center;
 .payer {
 	background-color: white;
 }
-[id="texticone"] {
+.texticone {
 	font-size: 1.5rem;
 	color: white;
 }
 
 
-[id="paiement1"] {
+.paiement1 {
 text-align: center;
 }
-[id="bouton"] {
+.bouton {
 	text-align : center;
 	margin-top: 2rem;
 	margin-bottom: 1rem;
@@ -75,7 +75,7 @@ padding-bottom: 2.5rem;
 text-align: center;
 }
 
-[id="paypal"], [id="cb"] {
+[id="paypal"], .cb {
 padding-top: 1rem;
 text-align: center;
 overflow: visible;
@@ -84,7 +84,7 @@ overflow: visible;
 
 
 
-[id="cb"]{
+.cb{
 width: 61px;
 height: 41px;
 }
@@ -105,12 +105,12 @@ color: white;
 color : white;
 }
 
-[id="rs"] {
+.rs {
 	margin-left: 0.5rem;
 	margin-top: 1rem;
 }
 
-[id="#reseau2"], [id="formulaire"] {
+.reseau2, [id="formulaire"] {
 margin-top: 1rem;
 margin-bottom: 1rem;
 }
@@ -119,20 +119,20 @@ margin-bottom: 1rem;
 	background-color: white;
 }
 
-[id="basdepage"], [id="fin"] {
+.basdepage, [id="fin"] {
 margin-top: 1rem;
 text-align: center;
 }
-[id="lien"]{
+.lien{
 	color: black;
 }
-[id="lien"]:hover{
+.lien:hover{
 	color: #558540;
 } 
 
 
 
-[id="titre"] {
+.titre {
 	text-align: left;
 }
 
